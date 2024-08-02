@@ -1,0 +1,136 @@
+.banner {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Added box shadow */
+}
+
+.event-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.event-location, .event-datetime, .event-desc {
+    font-size: 1em;
+    margin-top: 6px;
+    color: #666;
+}
+
+.read-more, .view-more {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.collapsed {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.expanded {
+    white-space: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btn-container .btn {
+    margin-left: 5px;
+}
+
+/* Updated footer styling */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; /* Height of the footer */
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Styling for review section */
+.review-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.reviewer a {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4CAF50; /* Green color for reviewer name */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: color 0.3s ease; /* Smooth color transition */
+    margin-bottom: 6px;
+}
+
+.reviewer a:hover {
+    color: #2e7d32; /* Darker green on hover */
+}
+
+.rating {
+    color: #ffc107; /* Bootstrap warning color for rating */
+    margin-bottom: 6px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.read-more-comment {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.expanded-comment {
+    white-space: normal;
+}
+
+.btn-container .btn-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-container .btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
